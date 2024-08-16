@@ -163,7 +163,6 @@ form input[type="submit"]:hover {
   }
   main {
     max-width: 100%;
-    padding: 1.5rem;
   }
   header h1 {
     font-size: 2rem;
@@ -176,18 +175,15 @@ form input[type="submit"]:hover {
     font-size: 1rem;
   }
   #words {
-    font-size: 2rem;
+    font-size: smaller;
   }
 }
 
 @media (max-width: 480px) {
-  .container {
-    margin: 1.5;
-    padding: 1.5rem;
-  }
   main {
     padding: 1rem;
   }
+
   header h1 {
     font-size: 1.5rem;
   }
@@ -196,16 +192,16 @@ form input[type="submit"]:hover {
   }
 
   form input[type="text"] {
-    width: 100%;
+    width: 90%;
     font-size: 0.9rem;
   }
   form input[type="submit"] {
-    width: 70%;
+    width: 60%;
     font-size: 0.9rem;
     padding: 0.5rem 0.5rem;
   }
   #words {
-    font-size: 2rem;
+    font-size: smaller;
   }
   footer {
     margin-top: 0.5rem;
