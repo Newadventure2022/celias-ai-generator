@@ -3,7 +3,7 @@
   --secondary-color: #cd4513;
   --background-color: #f0fff5;
   --accent-color: #13a89e;
-  --font-family: "Comic Sans MS", cursive, sans-serif;
+  --font-family: "Comic Sans MS", sans-serif;
 }
 
 body {
@@ -137,6 +137,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  body {
+    max-height: 70vh;
+  }
   .container {
     margin: 1.5rem;
     padding: 1.5rem;
