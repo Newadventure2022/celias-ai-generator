@@ -144,7 +144,8 @@ footer {
 
 @media (max-width: 768px) {
   .container {
-    padding: 1.5rem;
+    margin: 2rem;
+    padding: 2rem;
   }
   header {
     max-width: 75%;
@@ -167,10 +168,10 @@ footer {
 
 @media (max-width: 480px) {
   .container {
+    margin: 1.5;
     padding: 1.5rem;
   }
   main {
-    max-width: 40%;
     padding: 1rem;
   }
   header h1 {
