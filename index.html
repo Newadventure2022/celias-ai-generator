@@ -13,19 +13,21 @@
 <body>
     <div class="container">
         <header>
-            <h1>Welcome to Celia's AI Meme Generator</h1>
+            <h1>Welcome to Celia's
+                <br />IA Meme Generator
+            </h1>
+
         </header>
         <main>
-            <form>
-                <input type="text" placeholder="Enter your meme topic" autofocus required autocomplete="off" />
+            <form id="meme-form">
+                <input type="text" placeholder="Enter your meme topic" autofocus required autocomplete="off"
+                    class="instructions" />
                 <input type="submit" />
             </form>
-            <div id="meme-result">
-                The meme will go here
+            <div class="meme" id="meme-result">
             </div>
             <br />
             <div id="image-result">
-                The image will go here
             </div>
         </main>
     </div>
