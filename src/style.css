@@ -8,7 +8,6 @@
 
 body {
   background-color: var(--secondary-color);
-
   font-family: var(--font-family);
   color: var(--primary-color);
   margin: 0;
@@ -79,7 +78,9 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: var(--accent-color);
 }
-
+::placeholder {
+  color: #a0c5c2;
+}
 #words {
   background-color: var(--background-color);
   border: 2px solid var(--accent-color);
