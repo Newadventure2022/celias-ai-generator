@@ -21,16 +21,19 @@ body {
 .container {
   background-color: var(--background-color);
   border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   align-content: center;
-  padding: 2rem;
+  padding: 3rem;
   margin: 3rem;
 }
 header {
-  margin-bottom: 2rem;
+  margin: 0 auto;
+  max-width: 60%;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 header h1,
-header h2 {
-  text-align: center;
+header h3 {
   color: var(--secondary-color);
   text-shadow: 2px 2px var(--accent-color);
   margin: 0;
@@ -39,8 +42,8 @@ header h2 {
 h1 {
   font-size: 2.3rem;
 }
-h2 {
-  font-size: 2.1rem;
+h3 {
+  font-size: 1.5rem;
 }
 main {
   background-color: #ffffff;
@@ -80,6 +83,7 @@ form input[type="submit"]:hover {
 }
 ::placeholder {
   color: #a0c5c2;
+  font-size: 1rem;
 }
 #words {
   background-color: var(--background-color);
@@ -114,4 +118,72 @@ footer {
   font-size: 14px;
   color: var(--secondary-color);
   text-decoration: underline;
+}
+@media (max-width: 1024px) {
+  .container {
+    margin: 2rem;
+    padding: 2rem;
+  }
+  main {
+    max-width: 70%;
+    padding: 1.5rem;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  header h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+  header {
+    max-width: 75%;
+  }
+  main {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+  header h1 {
+    font-size: 1.8rem;
+  }
+  header h3 {
+    font-size: 1.2rem;
+  }
+  form input[type="text"] {
+    max-width: 90%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  main {
+    max-width: 90%;
+    padding: 1rem;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  header h3 {
+    font-size: 1rem;
+  }
+  form input[type="text"] {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  form input[type="submit"] {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.5rem;
+  }
+  #words {
+    font-size: 1rem;
+  }
 }
