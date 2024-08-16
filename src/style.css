@@ -110,6 +110,7 @@ form input[type="submit"]:hover {
   min-height: 150px;
   font-size: 1.2rem;
   color: var(--secondary-color);
+  overflow-x: auto;
 }
 
 #footer {
@@ -175,13 +176,14 @@ form input[type="submit"]:hover {
     font-size: 1rem;
   }
   #words {
-    font-size: 12px;
+    font-size: 1.3rem;
   }
 }
 
 @media (max-width: 480px) {
   main {
-    padding: 1rem;
+    max-width: 100%;
+    padding: 0.5rem;
   }
 
   header h1 {
@@ -201,7 +203,7 @@ form input[type="submit"]:hover {
     padding: 0.5rem 0.5rem;
   }
   #words {
-    font-size: 10px;
+    font-size: 1.3rem;
   }
   footer {
     margin-top: 0.5rem;
