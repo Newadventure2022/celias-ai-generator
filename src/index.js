@@ -1,12 +1,9 @@
 function displayWords(response) {
   new Typewriter("#words", {
-    strings: response.data.answer.replace(/[\u{1F600}-\u{1F6FF}]/gu, ""),
+    strings: response.data.answer,
     autoStart: true,
     cursor: "",
     delay: 20,
-    onComplete: () => {
-      document.querySelector("#words").innerHTML += " 😊";
-    },
   });
 }
 
