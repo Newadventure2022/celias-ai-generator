@@ -2,7 +2,7 @@
   --primary-color: rgba(0, 0, 0, 0.7);
   --secondary-color: #cd4513;
   --background-color: #f0fff5;
-  --accent-color: #13a89e;
+  --accent-color: #a0c5c2;
   --font-family: "Comic Sans MS", sans-serif;
 }
 
@@ -23,8 +23,11 @@ body {
   border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   align-content: center;
-  padding: 3rem;
-  margin: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 header {
   margin: 0 auto;
@@ -97,7 +100,7 @@ form input[type="submit"]:hover {
 }
 
 footer {
-  margin-top: 1rem;
+  margin-top: auto;
   padding: 1rem;
   background-color: var(--primary-color);
   color: white;
@@ -121,8 +124,8 @@ footer {
 }
 @media (max-width: 1024px) {
   .container {
-    margin: 2rem;
-    padding: 2rem;
+    margin: 4rem 2rem;
+    padding: 2rem 0;
   }
   main {
     max-width: 70%;
@@ -137,11 +140,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  body {
-    max-height: 70vh;
-  }
   .container {
-    margin: 1.5rem;
     padding: 1.5rem;
   }
   header {
@@ -152,10 +151,10 @@ footer {
     padding: 1.5rem;
   }
   header h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   header h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   form input[type="text"] {
     max-width: 90%;
@@ -164,10 +163,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .container {
-    margin: 1rem;
-    padding: 1rem;
-  }
   main {
     max-width: 90%;
     padding: 1rem;
@@ -178,13 +173,15 @@ footer {
   header h3 {
     font-size: 1rem;
   }
+
   form input[type="text"] {
     width: 100%;
     font-size: 0.9rem;
   }
   form input[type="submit"] {
+    width: 70%;
     font-size: 0.9rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 0.5rem;
   }
   #words {
     font-size: 1rem;
