@@ -175,7 +175,7 @@ form input[type="submit"]:hover {
     font-size: 1rem;
   }
   #words {
-    font-size: smaller;
+    font-size: 12px;
   }
 }
 
@@ -201,7 +201,7 @@ form input[type="submit"]:hover {
     padding: 0.5rem 0.5rem;
   }
   #words {
-    font-size: smaller;
+    font-size: 10px;
   }
   footer {
     margin-top: 0.5rem;
