@@ -1,15 +1,13 @@
-function generateMeme(event) {
+function generateWords(event) {
   event.preventDefault();
 
-  new Typewriter("#meme-result", {
-    strings: "The meme will go here",
+  new Typewriter("#words-result", {
+    strings: "The Encouraging Words Will Go Here",
     autoStart: true,
     cursor: "",
     delay: 20,
   });
-  let memeResultElement = document.querySelector("#image-result");
-  memeResultElement.innerHTML = " The image will go here";
 }
 
-let memeFormElement = document.querySelector("#meme-form");
-memeFormElement.addEventListener("submit", generateMeme);
+let wordsFormElement = document.querySelector("#words-form");
+wordsFormElement.addEventListener("submit", generateWords);
