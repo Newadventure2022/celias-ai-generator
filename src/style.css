@@ -22,6 +22,10 @@ html {
 body {
   align-items: center;
   background-color: var(--secondary-color);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/714/original/Positivity-Pulse-1.png?1723891453);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: var(--font-family);
   color: var(--primary-color);
   margin: 0;
@@ -41,6 +45,7 @@ body {
   justify-content: center;
   margin: 3rem;
   padding: 3rem;
+  max-width: 780px;
 }
 header {
   margin: 0 auto;
