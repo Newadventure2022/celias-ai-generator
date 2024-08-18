@@ -12,25 +12,21 @@
 
 <body>
     <div class="container">
-        <section>
-            <header>
-                <h1>Positivity Pulse:</h1>
-                <h3> an IA Generator to give you a continuous flow of positive energy and motivation.</h3>
-            </header>
-        </section>
-        <section id="main">
-            <main>
-                <form id="words-form">
-                    <input type="text" placeholder="Enter a word to receive a message" autofocus required
-                        autocomplete="off" class="instructions" id="user-instructions" />
-                    <input type="submit" class="submit-button" />
-                </form>
-                <div class="words" id="words">
-                </div>
+        <header>
+            <h1>Positivity Pulse:</h1>
+            <h3>An AI Generator to give you a continuous flow of positive energy and motivation.</h3>
+        </header>
 
-            </main>
-        </section>
+        <main id="main">
+            <form id="words-form">
+                <input type="text" placeholder="Enter a word to receive a message" autofocus required autocomplete="off"
+                    class="instructions" id="user-instructions" />
+                <input type="submit" class="submit-button" />
+            </form>
+            <div id="words"></div>
+        </main>
     </div>
+
     <section id="footer">
         <footer>
             <div class="credit">&copy;2024. This AI project was coded by
@@ -49,6 +45,7 @@
             </div>
         </footer>
     </section>
+
     <script src="src/index.js"></script>
 </body>
 
