@@ -3,9 +3,8 @@
   --secondary-color: #cd4513;
   --background-color: #f0fff5;
   --accent-color: #a0c5c2;
-  --primary-font-family: "Comic Sans MS";
-  --secondary-font-family: "Segoe UI Emoji", "Apple Color Emoji",
-    "Noto Color Emoji", sans-serif;
+  --font-family: "Comic Sans MS", sans-serif, "Segoe UI Emoji",
+    "Apple Color Emoji", "Noto Color Emoji";
 }
 
 *,
@@ -62,7 +61,7 @@ header {
 header h1,
 header h3 {
   color: var(--secondary-color);
-  font-family: var(--primary-font-family);
+  font-family: var(--font-family);
   text-shadow: 2px 2px var(--accent-color);
   margin: 0;
   letter-spacing: 1.5px;
@@ -123,10 +122,9 @@ form input[type="submit"]:hover {
   border: 2px solid var(--accent-color);
   border-radius: 10px;
   padding: 1rem;
-
   margin-top: 1.5rem;
   min-height: 150px;
-  font-family: var(--secondary-font-family);
+  font-family: var(--font-family);
   font-size: 1.2rem;
   color: var(--secondary-color);
   overflow-x: auto;
