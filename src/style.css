@@ -129,7 +129,8 @@ form input[type="submit"]:hover {
   font-style: normal;
   font-size: 1.2rem;
   color: var(--secondary-color);
-  overflow-x: auto;
+  word-spacing: 4px;
+  line-height: 1.5;
 }
 
 #footer {
