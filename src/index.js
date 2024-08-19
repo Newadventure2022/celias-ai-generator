@@ -5,6 +5,7 @@ function displayWords(response) {
     cursor: "",
     delay: 20,
   });
+  
 }
 
 function generateWords(event) {
