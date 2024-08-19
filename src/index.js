@@ -5,7 +5,6 @@ function displayWords(response) {
     cursor: "",
     delay: 20,
   });
-  
 }
 
 function generateWords(event) {
@@ -18,7 +17,7 @@ function generateWords(event) {
 
   let word = instructionsInput.value;
 
-  let prompt = `Generate a new encouraging message using the word "${word}". Also, choose an emoji that represents the word "${word}" and place it after the words. Sign the words with <br/> <strong> '~ SheCodes AI'</strong>, but please do not put '' or any quotes around SheCodes AI.`;
+  let prompt = `Generate a new encouraging message using the word "${word}". Also, choose an appropriate emoji based on the "${word}" provided, and place it after the words. Sign the words with <br/> <strong> '~ SheCodes AI'</strong>, but please do not put '' or any quotes around SheCodes AI.`;
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
