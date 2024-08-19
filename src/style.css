@@ -3,7 +3,8 @@
   --secondary-color: #cd4513;
   --background-color: #f0fff5;
   --accent-color: #a0c5c2;
-  --font-family: "Comic Sans MS", sans-serif;
+  --font-family: "Comic Sans MS", sans-serif, "Segoe UI Emoji",
+    "Apple Color Emoji", "Noto Color Emoji", sans-serif;
 }
 
 *,
