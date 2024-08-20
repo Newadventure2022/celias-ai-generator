@@ -4,7 +4,7 @@
   --background-color: #f0fff5;
   --accent-color: #a0c5c2;
   --primary-font-family: "Comic Sans MS";
-  --secondary-font-family: "Noto Color Emoji", sans-serif;
+  --secondary-font-family: "Noto Color Emoji", "Arial", sans-serif;
 }
 
 *,
@@ -172,9 +172,10 @@ form input[type="submit"]:hover {
   font-family: var(--secondary-font-family);
   font-weight: 400;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   color: var(--secondary-color);
   word-spacing: 4px;
+  word-wrap: break-word;
   line-height: 1.5;
 }
 #footer {
@@ -220,6 +221,11 @@ footer {
   form input[type="submit"] {
     font-size: 0.9rem;
     padding: 0.5rem 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  #words {
+    font-size: 1em;
   }
 }
 @media (max-width: 500px) {

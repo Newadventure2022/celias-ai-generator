@@ -1,4 +1,5 @@
 function displayWords(response) {
+  console.log(response.data.answer);
   const wordsDiv = document.querySelector("#words");
 
   wordsDiv.innerHTML = "";
