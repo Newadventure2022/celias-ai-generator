@@ -1,10 +1,14 @@
 function displayWords(response) {
-  console.log(response.data.answer);
-
   const wordsDiv = document.querySelector("#words");
 
- 
-  wordsDiv.innerHTML = response.data.answer;
+  wordsDiv.innerHTML = "";
+
+  new Typewriter(wordsDiv, {
+    strings: response.data.answer,
+    autoStart: true,
+    cursor: "",
+    delay: 20,
+  });
 }
 
 function generateWords(event) {
