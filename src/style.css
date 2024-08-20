@@ -140,7 +140,7 @@ form input[type="submit"]:hover {
   color: white;
   text-align: center;
   min-width: 100%;
-  position: absolute;
+  position: -webkit-sticky;
   bottom: 0;
 }
 .credit a {
